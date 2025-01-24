@@ -33,7 +33,7 @@ To run the included projects, ensure you have the following tools and libraries 
       │    ├── requirements.txt          # Module dependencies.
       │    └── README.md                 # Details about file processing.
       │
-      ├── 4_Stain_Area_Estimation/
+      ├── 4_Create_angular_app/
       │    ├── Area_calculator.py        # Probabilistic stain area estimation in binary images.
       │    ├── requirements.txt          # Module dependencies.
       │    └── README.md                 # Details about file processing.
