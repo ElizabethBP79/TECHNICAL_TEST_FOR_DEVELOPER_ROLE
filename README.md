@@ -107,7 +107,7 @@ If the transfer is impossible due to the constraints, the program will return -1
 This project is a Python script that estimates the area of a stain in a binary image using a probabilistic method based on random point generation.
 
 
-# Features
+Features
   * Converts images to grayscale and then to binary format.
   * Generates random points within the image.
   * Counts how many of those points fall inside the stain.
