@@ -3,13 +3,13 @@ Each folder addresses a specific problem or topic, ranging from recursive algori
 
 To run the included projects, ensure you have the following tools and libraries installed:
 # Requirements
-   Python 3.x
-   pydicom
-   pandas
-   numpy
-   matplotlib
-   PostgreSQL (database connection)
-   Pillow
+         Python 3.x
+         pydicom
+         pandas
+         numpy
+         matplotlib
+         PostgreSQL (database connection)
+         Pillow
 
 # Repository Structure
       Technical_Test_For_Developer_Role/
