@@ -11,18 +11,18 @@ If the transfer is impossible due to the constraints, the program will return -1
 
  # Project Structure
 
-1_recursion_and_colors/
-    │
-    ├── tower_of_hanoi.py        # Main solution script
-    ├── test_tower_of_hanoi.py   # Unit tests for the solution
-    └── README.md                # Documentation
+    1_recursion_and_colors/
+        │
+        ├── tower_of_hanoi.py        # Main solution script
+        ├── test_tower_of_hanoi.py   # Unit tests for the solution
+        └── README.md                # Documentation
 
 # How to Run
 1. Ensure Python 3 is installed on your system.
 2. Clone this repository:
 
-    git clone https://github.com/ElizabethBP79/TECHNICAL_TEST_FOR_DEVELOPER_ROLE
-    cd TECHNICAL_TEST_FOR_DEVELOPER_ROLE/1_recursion_and_colors
+      git clone https://github.com/ElizabethBP79/TECHNICAL_TEST_FOR_DEVELOPER_ROLE
+      cd TECHNICAL_TEST_FOR_DEVELOPER_ROLE/1_recursion_and_colors
 
 3. Run the script:
 
@@ -41,21 +41,21 @@ If the transfer is impossible due to the constraints, the program will return -1
 # Example Input/Output
 
 Input
-    n = 3
-    disks = [(3, "red"), (2, "blue"), (1, "red")]
+     n = 3
+     disks = [(3, "red"), (2, "blue"), (1, "red")]
 
 Output
 If valid moves are possible:
 
-[
-    (1, "A", "C"),
-    (2, "A", "B"),
-    (1, "C", "B"),
-    (3, "A", "C"),
-    (1, "B", "A"),
-    (2, "B", "C"),
-    (1, "A", "C")
-]
+    [
+        (1, "A", "C"),
+        (2, "A", "B"),
+        (1, "C", "B"),
+        (3, "A", "C"),
+        (1, "B", "A"),
+        (2, "B", "C"),
+        (1, "A", "C")
+    ]
 
 If moves are impossible due to constraints:
 
@@ -98,6 +98,6 @@ This will execute the tests and display the results.
     Python 3.x
 
 # Notes
-    1. Ensure the input disks are provided in descending order of size.
-    2. The implementation uses recursion, so be mindful of the recursion limit for larger values of n.
-    3. If the file is executed directly (test_tower_of_hanoi.py), all tests within the class will be executed.
+   1. Ensure the input disks are provided in descending order of size.
+   2. The implementation uses recursion, so be mindful of the recursion limit for larger values of n.
+   3. If the file is executed directly (test_tower_of_hanoi.py), all tests within the class will be executed.
