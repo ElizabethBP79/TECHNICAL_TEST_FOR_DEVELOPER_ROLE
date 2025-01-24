@@ -12,34 +12,33 @@ To run the included projects, ensure you have the following tools and libraries 
    Pillow
 
 # Repository Structure
-
-Technical_Test_For_Developer_Role/
-│
-├── 1_recursion_and_colors/
-│    ├── tower_of_hanoi.py         # Solution for the Tower of Hanoi problem with color constraints.
-│    ├── test_tower_of_hanoi.py    # Unit tests for the algorithm.
-│    └── README.md                 # Detailed description of the problem and solution.
-│
-├── 2_handling_and_array_operations/
-│    ├── file_processor.py         # DICOM and CSV file processor.
-│    ├── TEST.py                   # Tests and demonstration of the processor.
-│    ├── data/                     # Input files and test data.
-│    ├── reports/                  # Reports generated during processing.
-│    ├── requirements.txt          # Module dependencies.
-│    └── README.md                 # Details about file processing.
-│
-├── 3_Restful_API/
-│    ├── App/                      # Implementation of the RESTful API for medical results.
-│    ├── data/                     # Input data for API testing.
-│    ├── requirements.txt          # Module dependencies.
-│    └── README.md                 # Details about file processing.
-│
-├── 4_Stain_Area_Estimation/
-│    ├── Area_calculator.py        # Probabilistic stain area estimation in binary images.
-│    ├── requirements.txt          # Module dependencies.
-│    └── README.md                 # Details about file processing.
-│
-├── README.md                      # This file.
+      Technical_Test_For_Developer_Role/
+      │
+      ├── 1_recursion_and_colors/
+      │    ├── tower_of_hanoi.py         # Solution for the Tower of Hanoi problem with color constraints.
+      │    ├── test_tower_of_hanoi.py    # Unit tests for the algorithm.
+      │    └── README.md                 # Detailed description of the problem and solution.
+      │
+      ├── 2_handling_and_array_operations/
+      │    ├── file_processor.py         # DICOM and CSV file processor.
+      │    ├── TEST.py                   # Tests and demonstration of the processor.
+      │    ├── data/                     # Input files and test data.
+      │    ├── reports/                  # Reports generated during processing.
+      │    ├── requirements.txt          # Module dependencies.
+      │    └── README.md                 # Details about file processing.
+      │
+      ├── 3_Restful_API/
+      │    ├── App/                      # Implementation of the RESTful API for medical results.
+      │    ├── data/                     # Input data for API testing.
+      │    ├── requirements.txt          # Module dependencies.
+      │    └── README.md                 # Details about file processing.
+      │
+      ├── 4_Stain_Area_Estimation/
+      │    ├── Area_calculator.py        # Probabilistic stain area estimation in binary images.
+      │    ├── requirements.txt          # Module dependencies.
+      │    └── README.md                 # Details about file processing.
+      │
+      ├── README.md                      # This file.
 
 
 # Recursion and Colors
