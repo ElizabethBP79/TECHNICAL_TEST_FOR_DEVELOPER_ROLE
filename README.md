@@ -43,21 +43,20 @@ Technical_Test_For_Developer_Role/
 
 
 # Recursion and Colors
+
 This project contains a Python solution of the classic Tower of Hanoi problem, the goal is to move `n` disks from one rod to another using an auxiliary rod, without violating the basic rules: you can only move one disk at a time and you cannot place a larger disk on top of a smaller one. However, in this modified version of the problem, an additional constraint is also introduced: you cannot stack discs of the same color on top of each other, even if they are of different sizes. This constraint adds additional complexity to the solution.
 
- # Input
+ * Input
 An integer n (1 ≤ n ≤ 8), representing the number of disks.
 A list of tuples where each tuple contains the size and color of a disk, sorted in descending order of size.
 
- # Output
+ * Output
 A list of moves required to transfer all disks from the source rod to the target rod.
 If the transfer is impossible due to the constraints, the program will return -1.
 
 
 
 # DICOM and CSV File Processor
-
-# What are DICOM and CSV files?
 
   DICOM Files
     * DICOM (Digital Imaging and Communications in Medicine) is a standard format for medical imaging.
@@ -73,6 +72,7 @@ If the transfer is impossible due to the constraints, the program will return -1
 
   
   # Medical_Api
+  
   Medical_Api is a RESTful API built with FastAPI that is designed to manage the results of medical image processing.
   It allows performing CRUD (Create, Read, Update, Delete) operations on processing results, storing the data in a PostgreSQL database. 
   The API receives data in JSON format, validates and normalizes the values, and computes averages before and after normalization.
