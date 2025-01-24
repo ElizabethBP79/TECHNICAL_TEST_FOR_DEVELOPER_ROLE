@@ -110,4 +110,4 @@
       
           uvicorn App.main:app --reload
           
-      5. The API will be available at http://127.0.0.1:8000/
+      5. The API will be available at  http://127.0.0.1:8000/docs
